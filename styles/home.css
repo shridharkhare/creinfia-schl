@@ -1,0 +1,169 @@
+h4 {
+    font-size: 2em;
+}
+
+/*******About-Us*****/
+
+.about {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: flex-start;
+    /* flex-wrap: wrap-reverse; */
+    padding: 50px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.about h3 {
+    color: var(--pink-color);
+}
+
+.about-image {
+    flex: 400px;
+    position: relative;
+    width: 500px;
+    margin-right: 50px;
+    border-radius: 20px 100px;
+}
+
+.about-content {
+    flex: 400px;
+    padding: 25px 0px;
+}
+
+
+.about-content>p {
+    width: 75%;
+}
+
+/*******End About-Us*****/
+
+/*******Why Us*****/
+
+.why-us {
+    background: var(--main-gradient);
+    display: flex;
+    /* flex-flow: row wrap-reverse; */
+    justify-content: space-evenly;
+    padding: 25px 0px;
+}
+
+.why-us h3 {
+    color: black;
+    margin-bottom: 0;
+}
+
+.why-us-cards {
+    flex: 500px;
+
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* sets the col width to 1:1 (kinda like flex grow) | repeat function to repeat fr 2 times*/
+    grid-auto-rows: minmax(20px, auto);
+    /* sets the row height to min 20px and max auto */
+    gap: 15px;
+}
+
+.panel {
+    background-color: #181e21;
+    box-sizing: border-box;
+    padding: 35px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.p-expert {
+    grid-column: 1;
+    grid-row: 1/6;
+}
+
+.p-data {
+    grid-column: 2;
+    grid-row: 2/7;
+}
+
+.p-tech {
+    grid-column: 1;
+    grid-row: 6/10;
+}
+
+.p-market {
+    grid-column: 2;
+    grid-row: 7/12;
+}
+
+.why-us-content {
+    flex: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0px 25px;
+}
+
+/*******End why-us*****/
+
+/*******Clients*****/
+
+.clients {
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.clients-row-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+/*******End Clients*****/
+
+/*******Newsletter*****/
+
+.newsletter-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+}
+
+.newsletter {
+    background: var(--main-gradient);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    padding: 25px 50px;
+}
+
+.newsletter h1 {
+    font-size: 2.5em;
+}
+
+.newsletter-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.email-input:focus {
+    border: 5px solid var(--pink-color);
+}
+
+
+/*******End newsletter*****/
