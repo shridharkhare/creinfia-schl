@@ -1,3 +1,5 @@
+/* MASTER CSS */
+
 :root {
     --main-gradient: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     --orange-color: #ff5d5b;
@@ -208,7 +210,7 @@ section {
     font-size: 30px;
 }
 
-/* End Intro-div */
+/*******End Intro-div*****/
 
 /*******Footer*****/
 
